@@ -1,7 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
+
+
+/* Logo and Search Bar */
 
 .google-logo-and-search-bar {
     display: flex;
@@ -22,4 +27,50 @@
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     outline: 0;
+}
+
+/* ---------------------------------------- */
+
+/* Search Sort by Options */
+
+.sort-by-options {
+    border-bottom: solid 1px rgb(235, 235, 235);
+    padding-bottom: 5px;
+}
+
+.all-news-video-etc {
+    display: flex;
+    margin-left: 165px;
+    font-size: 14px;
+}
+
+.sort-by-option {
+    display: flex;
+    align-items: center; 
+    margin: 10px;
+}
+
+.sort-by-option img {
+    height: 16px;
+    width: 16px;
+    padding-right: 5px;
+}
+
+.tools-option {
+    margin-left: 170px;
+}
+
+/* ---------------------------------------- */
+
+/* Main Section */
+
+main {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+
+.result {
+    color: black;
+    margin-top: 25px;
 }
