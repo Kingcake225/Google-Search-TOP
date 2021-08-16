@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
 }
 
+body {
+    color: gray;
+}
 
 /* Logo and Search Bar */
 
@@ -71,6 +73,26 @@ main {
 }
 
 .result {
+    width: 600px;
     color: black;
     margin-top: 25px;
+    font-size: 15px;
+}
+
+.result span {
+    color: rgb(95, 99, 104);
+}
+
+.result-page-name, .result-description {
+    padding-top: 10px;
+}
+
+.result-page-name {
+    font-size: 18px;
+    color: rgb(26, 13, 171);
+    font-weight: 500;
+}
+
+#bottom-result {
+    margin-bottom: 50px;
 }
