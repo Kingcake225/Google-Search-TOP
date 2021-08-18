@@ -10,6 +10,12 @@ body {
 
 /* Logo and Search Bar */
 
+.topnav-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .google-logo-and-search-bar {
     display: flex;
     align-items: center;
@@ -30,6 +36,22 @@ body {
     border: 1px solid #dfe1e5;
     outline: 0;
 }
+
+.settings-apps-and-pfp img {
+    padding: 2px;
+    margin-right: 14px;
+}
+
+.radius-50 {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1113px) {
+    .settings-apps-and-pfp {
+      visibility: hidden;
+    }
+}
+
 
 /* ---------------------------------------- */
 
